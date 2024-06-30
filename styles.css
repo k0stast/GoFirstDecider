@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(106, 106, 160);
+}
+
+.head {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 75px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 62, 120);
+}
+
+.box div {
+    margin-left: 230px;
+    height: 500px;
+    width: 500px;
+    margin: 60;
+}
+
+.box button {
+    width: 250px;
+    background-color: white;
+    color: rgb(77, 114, 163);
+    border: 3px solid rgb(137, 128, 128);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.dice img {
+    margin-top: 30px;
+    height: 260px;
+    border-radius: 50%;
+}
+
+.coin img {
+    margin-top: 30px;
+    height: 260px;
+    border-radius: 50%;
+}
+
+.box button:hover {
+    background-color: rgb(8, 16, 30);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.coin #resultC{
+    color: white;
+    font-size: 70px;
+    margin-left: 40px;
+
+}
+
+.dice #resultD{
+    color: white;
+    font-size: 70px;
+    margin-left: 110px;
+
+}
